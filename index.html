@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Now</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="input-container">
-        <img src="icons/search.png" alt="search" class="input-icon">
-        <input type="text" placeholder="Я ищу..." class="input-field">
-        <img src="icons/menu.png" alt="icons" class="menu" width="25" height="25">
-        <img src="icons/filters.png" alt="filters" class="filters" width="25" height="25">
-    </div>
+    <header class="header">
+        <div class="container">
+            <div class="search-container">
+                <img src="icons/search.png" alt="search-icon" width="25" height="25" class="search-icon">
+                <input type="text" placeholder="Я ищу..." class="search-input">
+            </div>
+            <div class="menu-container">
+                <img src="icons/menu.png" alt="filter icon" width="25" height="25" class="menu">
+            </div>
+            <div class="filters-container">
+                <img src="icons/filters.png" alt="filter icon" width="25" height="25" class="filters">
+            </div>
+        </div>
+    </header>
 </body>
 </html>
